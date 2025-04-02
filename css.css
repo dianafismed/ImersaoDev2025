@@ -11,17 +11,18 @@ body {
 /* Logo Styles */
 .logo {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 1rem;
+  right: 1rem;
   max-width: 150px;
   width: auto;
 }
 
-/* Container with the background image */
+/* Container */
 .container {
   background: url('https://i.postimg.cc/TY28jTqJ/bg4-ia.jpg') no-repeat center center/cover;
-  min-height: 100vh;
-  display: flex;
+  //min-height: 100vh;
+  display: grid;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
 }
@@ -36,6 +37,7 @@ body {
 
 .content h2 {
   margin-bottom: 20px;
+  
 }
 
 /* Button Styles */
