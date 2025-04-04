@@ -20,7 +20,7 @@ body {
 
 /* Container */
 .container {
-  height: 100vh;
+  //height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,10 +37,9 @@ body {
 
 .content h2 {
   margin-bottom: 2rem;
-  
 }
 
-/* Button Styles */
+/* Button */
 button {
   background-color: #ff1b7b;
   border: none;
@@ -55,8 +54,100 @@ button:hover {
   background-color: #1ABC9C;
 }
 
+/* Game */
+.titulo{
+  display: flex;
+  justify-content: center;
+}
+.conteudo-jogo {
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 5px #ff1b7b;
+  margin: 3rem;
+  padding: 2rem;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.conteudo-jogo:hover {
+  background: rgba(0, 0, 0);
+  box-shadow: 0 0 5px #19caca;
+}
+
+/* Estrutura do questionário */
+.questionario {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 70%;
+  max-width: 70%;
+}
+
+/* Área de conteúdo */
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  gap: 20px;
+}
+
+/* Estilo da pergunta */
+.pergunta {
+  font-weight: 600;
+  color: white;
+}
+
+/* Progresso da pergunta */
+.progresso {
+  text-align: end;
+  font-size: small;
+  font-weight: 500;
+  color: white;
+}
+
+/* Área das respostas */
+.respostas {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Botões de resposta */
+.botao-resposta {
+  width: 100%;
+  height: 2.5rem;
+  text-align: start;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  background: #ff1b7b;
+  color: white;
+}
+
+.botao-resposta:hover {
+  background: #19caca;
+  font-weight: 600;
+}
+
+/* Tela de fim do jogo */
+.fim {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.fim span {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+}
+
 /* Footer Styles */
 footer {
   text-align: center;
-  padding: 10px;
+  padding: 1rem;
 }
