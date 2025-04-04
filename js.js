@@ -31,10 +31,10 @@ function jogo() {
 
 function pegada() {
   let rodada = 1;
-  while (rodada <= 3) {
+  while (rodada <= 5) {
     //alert("Rodada " + rodada);
-    jogador = prompt("Nível " + rodada + "\nEscolha o vidro: 1, 2 ou 3");
-    vidro = Math.floor(Math.random() * 3) + 1;
+    jogador = prompt("Nível " + rodada + "\nEscolha o vidro: 1, 2, 3, 4 ou 5 ");
+    vidro = Math.floor(Math.random() * 5) + 1;
     if(jogador == vidro){
       alert("O vidro quebrou ! Fim de jogo !");
       rodada = 1000;
