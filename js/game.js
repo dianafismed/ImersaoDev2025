@@ -1,5 +1,33 @@
 // PARTE 1: Lista de perguntas e respostas
-
+perguntas = [
+  {
+    pergunta: "Qual é a capital da França?",
+    respostas: [
+      { opcao: "Paris", correto: true },
+      { opcao: "Londres", correto: false },
+      { opcao: "Berlim", correto: false },
+      { opcao: "Madri", correto: false },
+    ],
+  },
+  {
+    pergunta: "Qual é a capital do Brasil?",
+    respostas: [
+      { opcao: "Brasília", correto: true },
+      { opcao: "Rio de Janeiro", correto: false },
+      { opcao: "São Paulo", correto: false },
+      { opcao: "Salvador", correto: false },
+    ],
+  },
+  {
+    pergunta: "Qual é a capital dos Estados Unidos?",
+    respostas: [
+      { opcao: "Washington, D.C.", correto: true },
+      { opcao: "Nova Iorque", correto: false },
+      { opcao: "Los Angeles", correto: false },
+      { opcao: "Chicago", correto: false },
+    ],
+  },
+];
 // PARTE 2: Pegando os elementos do HTML
 const perguntaElemento = document.querySelector(".pergunta");
 const respostasElemento = document.querySelector(".respostas");
